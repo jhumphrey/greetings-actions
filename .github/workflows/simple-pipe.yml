@@ -55,5 +55,5 @@ jobs:
         arguments-to-count: ${{ github.event.inputs.myValues }}
     - run: echo
     - shell: bash
-    run:  |
-      echo argument count is ${{ steps.report-count.outputs.arg-count }}
+      run:  |
+        echo argument count is ${{ steps.report-count.outputs.arg-count }}
